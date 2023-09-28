@@ -681,3 +681,10 @@ procdump(void)
     printf("\n");
   }
 }
+
+int
+halt(void)
+{
+  timerhalt();
+  return 0;
+}
